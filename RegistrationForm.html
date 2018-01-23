@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Registration Form </title>
+</head>
+<body>
+
+    <h1> My Registration Form </h1>
+    <table>
+            <form action="" method="POST" >
+                  <tr> 
+                      <td> <label for="first_name">First Name:</label></td>
+                      <td><input type="text" id="first_name" name="first_name" /></td>
+                </tr>
+                <tr>
+                    <td><label for="last_name">Last Name:</label> </td>
+                    <td><input type="text" id="last_name" name="last_name" /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email" name="email" /></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password:</label></td>
+                    <td><input type="password" id="Password" name="Password" /></td>
+                 </tr>
+                <tr>
+                    <td><label for="PW">Confirm Password:</label></td>
+                    <td><input type="PW" id="PW" name="PW" /></td>
+                </tr>
+                <tr>
+                    <td><label for="BD">Birthday:</label></td>
+                    <td><input type="text" id="BD" name="BD" value="mm/dd/yyyy" /></td>
+                </tr>
+                <tr colspan="2">
+                    <td><label>Male:</label>
+                    <input type="radio" name="gender" value="male" />
+                    <label >Female:</label>
+                    <input type="radio" name="gender" value="female" />
+                    <label >Other:</label>
+                    <input type="radio" name="gender" value="other" />
+
+                </td>
+                </tr>
+                <tr colspan="2">
+                    <td><label for="BD">A Short Description About Yourself:</label><br />
+                    <textarea name="description"></textarea></td>
+                </tr>   
+                <tr>
+                    <td><label for="language">Favorite Language:</label></td>
+                    <td><select name="language">
+                        <option value="js">JavaScript</option>
+                        <option value="html">HTML</option>
+                        <option value="cs">C#</option>
+                        <option value="vb">Visual Basic</option>
+                    </td>
+                </tr>
+                <tr colspan="2">
+                    <td>
+                    <input type="submit" value="Click here to register" />
+                    </td>
+                </tr>   
+
+            </form>
+    </table>
+</body>
+</html> 
