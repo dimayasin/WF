@@ -1,0 +1,54 @@
+*{
+    margin:0;
+}
+
+img{
+    cursor: pointer;
+}
+#rowOne{
+width:100%;
+
+}
+#rowTwo{
+    width: 100%;
+}
+#one{   width:300px;
+    height: 300px;
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;}
+#two{    width:300px;
+    height: 300px;
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;}
+#three{   width:300px;
+    height: 300px;
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;}
+#four{   width:300px;
+    height: 300px;
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;}
+#five{    width:300px;
+    height: 300px;
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;}
+#six{    width:300px;
+    height: 300px;
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;}
+#seven{    width:300px;
+    height: 300px;
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;}
+#eight{    width:300px;
+    height: 300px;
+    box-sizing: border-box;
+    display:inline-block;
+    position: relative;}
