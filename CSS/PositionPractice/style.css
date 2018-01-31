@@ -22,14 +22,16 @@
     background-color: blue;
     padding: 10px;
     margin-right: 30px;
+    margin-top: 30px;
    }
    #main_content{
     display: box;
     height: 400px;
     width: 700px;
     background-color: red;
-    float: top right;
+    float: top;
     margin-left: 230px;
+    margin-top: 30px;
     padding: 20px;
    }
    .subcontents{

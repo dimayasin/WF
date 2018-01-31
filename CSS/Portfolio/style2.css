@@ -1,0 +1,160 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+   
+   }
+   #wrapper{
+    width: 100%x;
+    background: linear-gradient(rgb(65, 30, 48), rgb(150, 74, 114), rgb(65, 30, 48));
+   
+    padding: 10px;
+    margin: 0px auto;
+   }
+   #header{
+   display: inline-block;
+    background-color: rgb(212, 203, 216);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    padding-top: 20px;
+   }
+  
+
+
+   #footer{
+       display: block;
+       height: 50px;
+       background-color: rgb(212, 203, 216);
+       color: black;
+       padding: 20px;
+       position: relative;
+       margin-top: 30px;
+       text-align: center;
+
+
+   }
+
+   a{color:black;}
+   #name{
+
+  display: inline-block;
+  
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 24;
+       padding-left:10px;
+       padding-right: 40px;
+
+   }
+   #shadows
+   {
+        display: inline-block;
+    
+        text-align: right;
+        padding-left: 60px;
+        margin-left: 200px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18;
+   }
+   #pic_div{
+       display: inline-block;
+       float: left;
+       height: 380px;
+       box-sizing: border-box;
+       margin-top: 10px;
+       margin-left: 10px;
+   /*    padding: 0px 10px 50px 10px;*/
+
+   }
+   #pic
+   {
+    
+       width: 450px;
+       height: 300px;
+       padding:10px;
+       border: 1 solid rgb(182, 176, 176);
+       background-color:  rgb(182, 176, 176);
+       display: inline-block;
+   }
+
+   .titles{
+       padding-top:10px;
+       margin-top: 0px;
+       padding-bottom: 10px;
+       padding-left: 10px;
+       background: linear-gradient(rgb(187, 176, 182), rgb(102, 96, 99), rgb(187, 176, 182));
+       border:1 solid rgb(182, 176, 176);
+       color: white;
+       /*width:100%;*/
+
+   }
+
+#about{
+   
+        width: 50%;
+        height: 380px;
+        background-color:  rgb(230, 195, 195);
+        color:black;
+        left: 500px;
+        /*padding: 0px 10px 50px 10px;
+*/        display: inline-block;
+       margin-top: 10px;
+       margin-left: 10px;
+       box-sizing: border-box;
+
+}
+
+.frames{
+
+    display: inline-block;
+    width: 350px;
+    height: 700px;
+    background-color:  rgb(230, 195, 195);
+    color:black;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 10px;
+    vertical-align: top;
+  
+    
+   }
+
+ p{
+     width: 90%;
+     height: 100px;
+     padding-left: 10px;
+     padding-bottom: 30px;
+
+ }
+
+.bottom_padding{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.icon{
+
+    width:15%;
+    height:40px;
+
+}
+
+.icon2{
+
+    width: 10px;
+    height: 10px;
+}
+.green_button{
+    background-color: rgb(58, 94, 77);
+    height: 20px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    color:white;
+    font-size: 15px;
+    padding-top: 5px;
+    float: bottom center;
+    margin-left: 100px;
+    text-align: center;
+}
