@@ -1,15 +1,42 @@
 *{
     margin:0;
 }
-#ninja{
-
-    background-color:black;
-}
 
 #fName{
    
 }
 #lName{}
-#fsubmit{}
-#Results{}
+#fsubmit{
+
+    margin-top:20px;
+    float: right;
+}
+#Results{
+    width:500px;
+
+}
 #form1{}
+#Display{
+
+    border:1px solid black;
+
+}
+#Adding{
+
+    padding-top: 100px;
+    Width:350px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+
+}
+#form1{
+    width:300px;
+    vertical-align: right;
+    margin-left:50px;
+}
+tr{
+    border:1px solid black
+}
+td,th{
+    width:200px;
+}
