@@ -6,6 +6,8 @@
 
 
 #wrapper{
+    box-sizing: border-box;
+    display: inline-block;
     width: 100%;
     height: 1000px;
     background:white;
@@ -20,8 +22,10 @@
 /* the blue banner for the www */
 
 #top_header{
+    box-sizing: border-box;
+    display: inline-block;
     width: 100%;
-    height: 60px;
+    height: 80px;
     background: linear-gradient(rgb(51, 109, 156),rgb(84, 122, 153), rgb(51, 109, 156));
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,6 +35,8 @@
     }
     /* formating the the word internet on top + the picture of the globe*/
     #Blak_Internet{
+        box-sizing: border-box;
+        display: inline-block;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 60px;
         position: absolute;
@@ -39,6 +45,8 @@
 
     }
     #Blue_Internet{
+        box-sizing: border-box;
+        display: inline-block;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 60px;
         color:rgb(51, 109, 156);
@@ -55,9 +63,10 @@
 /************************************************************/
 
 #left_frame{
-
+    box-sizing: border-box;
     display: inline-block;
-    width: 20%;
+    display: inline-block;
+    width: 15%;
     height: 1000px;
     background-color:white;
     color:black;
@@ -74,6 +83,8 @@
 }
 
 #right_frame{
+    box-sizing: border-box;
+    display: inline-block;
 
     display: inline-block;
     width: 70%;
@@ -93,15 +104,18 @@
 
 /* Left frame parts */
 #left_frame hr{
-
+    box-sizing: border-box;
+    display: inline-block;
     margin-top:20px;
     margin-bottom: 20px;
     width: 100%;
 }
 
 #career{
+    box-sizing: border-box;
+    display: inline-block;
     width: 100%;
-    height: 400px;
+    height: 600px;
     font-size: 40px;
     text-align: center;
     color:white;
@@ -110,30 +124,88 @@
 
 }
 #ad_img{
+    box-sizing: border-box;
+    display: inline-block;
      width: 100%;
-     height: 700px;
+     height: 500px;
      vertical-align: top;
+     z-index: -10px;
 
-
-
-
+}
+#ninja-img{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 150px;
+    height: 180px;
+    z-index: 5px;
+    margin-top: 50px;
 }
 #text{
 
     color:white;
     font-size: 30px;
+    /* margin-top: -660px; */
+    margin-top: -450px;
+    box-sizing: border-box;
+    /* display: inline-block; */
+
+
 }
 
-#career p#text{
-
-    margin-top: -660px;
+#lite_blue_button{
+    background-color: rgb(81, 204, 241);
+    height: 50px;
+    width: 85%;
     box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px  5px gray;
+    color:white;
+    font-size: 15px;
+    padding-top: 15px;
+    left: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right:20px;
+    margin-bottom: 10px;
+    margin-left:-80px;
+    z-index: 5; position:relative;
 
+}
+
+#bottom1{
+    box-sizing: border-box;
+    display: inline-block;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(51, 109, 156);
+    padding-top: 40px;
+    padding-left: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+}
+#bottom1 img{
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width:200px;
+    height:200px;
+}
+
+#bottom1_text{
+    position: absolute;
+    margin-left: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
 
 }
 .phone_Info{
 
-
+    box-sizing: border-box;
+    display: inline-block;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -174,12 +246,20 @@
 
 
 /* Right frame parts */
-
+#topC{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    
+}
 #home{
-
+    box-sizing: border-box;
+    display: inline-block;
     padding-bottom: 10px;
     width: 100px;
     height: 100px;
+    margin-left: 5px;
     display: inline-block;
     box-sizing: border-box;
     /*position: relative; */
@@ -261,24 +341,6 @@ vertical-align: top;
     text-align: center;
 }
 
-#lite_blue_button{
-    background-color: rgb(81, 204, 241);
-    height: 50px;
-    width: 90%;
-    box-sizing: border-box;
-    border-radius: 10px;
-    box-shadow: 5px 5px  5px gray;
-    color:white;
-    font-size: 15px;
-    padding-top: 15px;
-    left: 100px;
-    text-align: center;
-    margin-top: 50px;
-    margin-right:20px;
-    margin-bottom: 10px;
-    z-index: 2; position:relative;
-
-}
 
 #main_text{
     display: inline-block;
@@ -287,7 +349,7 @@ vertical-align: top;
 
 }
 span{
-    color: rgb(81, 204, 241);
+    color: rgb(50, 195, 240);
 
 }
 P{
